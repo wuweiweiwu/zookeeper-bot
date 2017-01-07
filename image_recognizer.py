@@ -17,7 +17,7 @@ class Recognizer:
         for filename in images:
             img = Image.open(path+'/'+filename)
             img = img.resize(self.downscale_size, Image.BILINEAR)
-            self.data.append(numpy.array(img.getdata()).flatten().reshape((1, -1)))
+            self.data.append(numpy.array(img.getdata()).flatten())
             self.values.append(value)
 
     def load(self):
@@ -35,12 +35,12 @@ class Recognizer:
             self.svc = joblib.load('trained.dat')
         else:
             self.load()
-            np_data = numpy.array(self.data)
-            np_values = numpy.array(self.values)
+            np_data = self.data
+            np_values = self.values
             self.svc.fit(np_data, np_values)
             joblib.dump(self.svc, 'trained.dat', compress=9)
 
     def predict(self, image):
         image = image.resize(self.downscale_size, Image.BILINEAR)
-        input_image = numpy.array(image.getdata()).flatten().reshape((1, -1))
+        input_image = numpy.array(image.getdata()).flatten()
         return int(self.svc.predict(input_image))

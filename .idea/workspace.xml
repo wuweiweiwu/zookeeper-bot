@@ -2,44 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be5c35ea-9cb2-4daf-8339-db42d2321066" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image_recognizer.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/training-images/bunny/Screen Shot 2017-01-03 at 10.26.35 PM.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/training-images/bunny/Screen Shot 2017-01-03 at 10.26.39 PM.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/training-images/bunny/Screen Shot 2017-01-03 at 10.26.44 PM.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/training-images/bunny/Screen Shot 2017-01-03 at 10.26.47 PM.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/training-images/elephant/Screen Shot 2017-01-03 at 10.25.08 PM.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/training-images/elephant/Screen Shot 2017-01-03 at 10.25.14 PM.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/training-images/elephant/Screen Shot 2017-01-03 at 10.25.18 PM.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/training-images/elephant/Screen Shot 2017-01-03 at 10.25.27 PM.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/training-images/frog/Screen Shot 2017-01-03 at 10.23.57 PM.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/training-images/frog/Screen Shot 2017-01-03 at 10.24.03 PM.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/training-images/frog/Screen Shot 2017-01-03 at 10.24.07 PM.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/training-images/frog/Screen Shot 2017-01-03 at 10.24.11 PM.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/training-images/giraffe/Screen Shot 2017-01-03 at 10.23.20 PM.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/training-images/giraffe/Screen Shot 2017-01-03 at 10.23.25 PM.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/training-images/giraffe/Screen Shot 2017-01-03 at 10.23.29 PM.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/training-images/giraffe/Screen Shot 2017-01-03 at 10.23.47 PM.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/training-images/hippo/Screen Shot 2017-01-03 at 10.21.47 PM.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/training-images/hippo/Screen Shot 2017-01-03 at 10.21.55 PM.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/training-images/hippo/Screen Shot 2017-01-03 at 10.22.00 PM.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/training-images/hippo/Screen Shot 2017-01-03 at 10.22.05 PM.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/training-images/lion/Screen Shot 2017-01-03 at 10.24.16 PM.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/training-images/lion/Screen Shot 2017-01-03 at 10.24.20 PM.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/training-images/lion/Screen Shot 2017-01-03 at 10.24.29 PM.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/training-images/lion/Screen Shot 2017-01-03 at 10.24.35 PM.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/training-images/lion/Screen Shot 2017-01-03 at 10.24.39 PM.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/training-images/monkey/Screen Shot 2017-01-03 at 10.22.59 PM.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/training-images/monkey/Screen Shot 2017-01-03 at 10.23.04 PM.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/training-images/monkey/Screen Shot 2017-01-03 at 10.23.10 PM.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/training-images/monkey/Screen Shot 2017-01-03 at 10.23.14 PM.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/training-images/panda/Screen Shot 2017-01-03 at 10.25.37 PM.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/training-images/panda/Screen Shot 2017-01-03 at 10.25.43 PM.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/training-images/panda/Screen Shot 2017-01-03 at 10.25.48 PM.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/training-images/panda/Screen Shot 2017-01-03 at 10.25.53 PM.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/training-images/panda/Screen Shot 2017-01-03 at 10.26.00 PM.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image_recognizer.py" afterPath="$PROJECT_DIR$/image_recognizer.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -60,8 +24,8 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="95" column="46" lean-forward="false" selection-start-line="95" selection-start-column="46" selection-end-line="95" selection-end-column="46" />
+            <state relative-caret-position="29">
+              <caret line="80" column="40" lean-forward="true" selection-start-line="80" selection-start-column="40" selection-end-line="80" selection-end-column="40" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -69,21 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Readme.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Readme.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="image_recognizer.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="image_recognizer.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/image_recognizer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="44" column="73" lean-forward="false" selection-start-line="44" selection-start-column="73" selection-end-line="44" selection-end-column="73" />
+            <state relative-caret-position="524">
+              <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -106,16 +60,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/image_recognizer.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/Readme.md" />
+        <option value="$PROJECT_DIR$/image_recognizer.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="31" />
     <option name="y" value="23" />
-    <option name="width" value="1649" />
+    <option name="width" value="825" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -372,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1483504482844</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Finishing bot. Added readme">
+      <created>1483768658622</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1483768658622</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -385,10 +346,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="31" y="23" width="1649" height="1027" extended-state="6" />
+    <frame x="31" y="23" width="825" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08065494" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16121212" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -416,7 +377,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="main.py" />
     <MESSAGE value="adding test images" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding test images" />
+    <MESSAGE value="Finishing bot. Added readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finishing bot. Added readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -546,18 +508,26 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/sklearn/utils/validation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="394" column="0" lean-forward="false" selection-start-line="394" selection-start-column="0" selection-end-line="394" selection-end-column="0" />
+        <state relative-caret-position="204">
+          <caret line="404" column="0" lean-forward="false" selection-start-line="404" selection-start-column="0" selection-end-line="404" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="95" column="46" lean-forward="false" selection-start-line="95" selection-start-column="46" selection-end-line="95" selection-end-column="46" />
+        <state relative-caret-position="29">
+          <caret line="80" column="40" lean-forward="true" selection-start-line="80" selection-start-column="40" selection-end-line="80" selection-end-column="40" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
@@ -566,19 +536,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/image_recognizer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="44" column="73" lean-forward="false" selection-start-line="44" selection-start-column="73" selection-end-line="44" selection-end-column="73" />
+        <state relative-caret-position="524">
+          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Readme.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
