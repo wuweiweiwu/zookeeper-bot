@@ -18,6 +18,7 @@ cell_size = (img_size[0]/board_size, img_size[1]/board_size)
 game_board = numpy.zeros((board_size, board_size), dtype=numpy.int32)
 recognizer = Recognizer()
 
+previous_move = None
 
 def click(coor):
     control.click(x=coor[0], y=coor[1], button='left', clicks=1)
@@ -76,22 +77,25 @@ def has_match(board):
 
 
 def get_move():
+    global previous_move
     for x in range(7, -1, -1):
         for y in range(7, -1, -1):
             board = deepcopy(game_board)
             if 0 <= x < board_size and 0 <= y < board_size and 0 <= x+1 < board_size:
                 board[x][y], board[x+1][y] = board[x+1][y], board[x][y]
-                if has_match(board):
+                if has_match(board) and previous_move != ((x, y), (x+1, y)):
                     start = (x, y)
                     end = (x+1, y)
+                    previous_move = (start, end)
                     # do_move((start, end))
                     return start, end
             board = deepcopy(game_board)
             if 0 <= x < board_size and 0 <= y < board_size and 0 <= y + 1 < board_size:
                 board[x][y], board[x][y+1] = board[x][y+1], board[x][y]
-                if has_match(board):
+                if has_match(board) and previous_move != ((x, y), (x, y+1)):
                     start = (x, y)
                     end = (x, y+1)
+                    previous_move = (start, end)
                     # print game_board[x][y]
                     # print game_board[x][y+1]
                     # do_move((start, end))
@@ -107,7 +111,7 @@ def play():
         print_board()
         move = get_move()
         do_move(move)
-        time.sleep(2)
+        # time.sleep(1)
 
 
 if __name__ == '__main__':
