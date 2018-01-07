@@ -1,4 +1,4 @@
-#Zookeeper bot
+# Zookeeper bot
 
 This is a python bot for the facebook messenger game Zookeeper. Very similar to Candy Crush
 
