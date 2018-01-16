@@ -2,7 +2,7 @@
 
 This is a python bot for the facebook messenger game Zookeeper. Very similar to Candy Crush
 
-[](https://github.com/wuweiweiwu/zookeeper-bot/blob/master/image%20w%20bunny.png)
+![](https://github.com/wuweiweiwu/zookeeper-bot/blob/master/image%20w%20bunny.png)
 
 Here is a general gist of the program.
 
